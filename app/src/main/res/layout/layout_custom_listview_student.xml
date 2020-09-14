@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="ABCC123"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:id="@+id/txtStudentID"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="BBBBBBBBBBBBBBBB"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:id="@+id/txtStudentName"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="BB/BB/BB"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:id="@+id/txtBirth"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="BBBBBBB"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:id="@+id/txtStudentClass"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+</LinearLayout>
